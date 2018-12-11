@@ -105,8 +105,8 @@ void hedef(void)
       i += 1;
       cout<<"Skor: "<<i<<"\n";
       konum = r;
-    //  mermiY = 1.1;
-    //  mermiX = 1.1;
+      mermiY = 1.1;
+      mermiX = 1.1;
     }
 
     glFlush();
