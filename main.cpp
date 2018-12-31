@@ -61,16 +61,16 @@ void hedef(void)
     mermiX += 0.0009;
 
 //mermi
-  glColor3f(1.0,1.0,0.0);
+  glColor3f(1.0,0.5,0.0);
 
     glBegin(GL_TRIANGLES);
-      glVertex2f(0.0+mermiX,0.05 +mermiY);
+      glVertex2f(0.0+mermiX,0.03 +mermiY);
       glVertex2f(0.0+mermiX,0.0+mermiY);
-      glVertex2f(0.05+mermiX,0.0+mermiY);
+      glVertex2f(0.03+mermiX,0.0+mermiY);
 
-      glVertex2f(0.0+mermiX,0.05+mermiY);
-      glVertex2f(0.05+mermiX,0.05+mermiY);
-      glVertex2f(0.05+mermiX,0.0+mermiY);
+      glVertex2f(0.0+mermiX,0.03+mermiY);
+      glVertex2f(0.03+mermiX,0.03+mermiY);
+      glVertex2f(0.03+mermiX,0.0+mermiY);
     glEnd();
 
     glColor3f(0.0,1.0,1.0);
@@ -161,7 +161,7 @@ int main(int argc, char** argv)
     //gluOrtho2d(0,400,0,600);
     //glutInitWindowPosition(100, 100);
 
-    glutCreateWindow("OZEL NOKTADAN VURURSAN 55 PUAN GELIR!!!");
+    glutCreateWindow("OYun!!");
 
     glutKeyboardFunc(keyboard);
 
